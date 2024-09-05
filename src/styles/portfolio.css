@@ -1,0 +1,112 @@
+.portfolioo {
+  margin-bottom: 90px;
+  padding: 149.33px, 85.33px, 149.33px, 85.33px;
+}
+.portfolio-text h3 {
+  font-weight: 600;
+  font-size: 21.33px;
+  color: #282938;
+  margin-bottom: 20px;
+}
+.portfolio-text h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #282938;
+}
+.port {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 90px;
+}
+.portt {
+  height: 254.33px;
+  background-color: white;
+  padding: 32px;
+  gap: 32px;
+  box-shadow: 0px 0px 32px 0px #00000026;
+}
+.portt h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #282938;
+}
+.portt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1c1e53;
+}
+.websitedes {
+  font-weight: 600;
+  font-size: 18.67px;
+  border: none;
+  border-bottom: 1.33px solid #5e3bee;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+.github-text {
+  width: 229px;
+  height: 74.67px;
+  border-radius: 10.67px;
+
+  background-color: #7e69d3;
+  box-shadow: 0px 1.33px 2.67px 0px #1018280d;
+  color: white;
+  font-weight: 400;
+  font-size: 21.33px;
+}
+@media (max-width: 991px) {
+  .port {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .github-text {
+    font-size: 18px;
+    width: 200px;
+  }
+  .portfolio-text h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 460px) {
+  .github-text {
+    font-size: 16px;
+    width: 200px;
+  }
+  .portfolio-text h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .github-text {
+    font-size: 16px;
+    width: 180px;
+    height: 50px;
+  }
+  .portfolio-text h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 370px) {
+  
+  .portfolio-text h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 350px) {
+  
+  .portfolio-text h3 {
+    font-size: 18px;
+  }
+  .portfolio-text h1 {
+    font-size: 22px;
+  }
+   .github-text {
+    font-size: 14px;
+    width: 160px;
+    height: 40px;
+  }
+}

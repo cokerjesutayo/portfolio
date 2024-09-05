@@ -1,0 +1,138 @@
+.expertise-body {
+  margin-top: 100px;
+}
+.expertise-body h3 {
+  font-weight: 600;
+  font-size: 21.33px;
+  color: #282938;
+}
+.expertise-body h1 {
+  font-weight: 700;
+  font-size: 54px;
+  color: #282938;
+}
+.expertise-div {
+  margin-top: 80px;
+  display: flex;
+  gap: 20px;
+}
+.expertise-one {
+  width: 405.33px;
+  height: 380px;
+  border-radius: 10.67px;
+  border: 0px, 0px, 4px, 0px;
+  padding: 32px;
+  gap: 32px;
+  background-color: #f5fcff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.expertise-one img {
+  width: 79.33px;
+  height: 79.33px;
+  border-radius: 10.33px;
+  padding: 12.91px;
+  box-shadow: 0px 0px 15.49px 0px #0000001a;
+  background-color: white;
+}
+.expertise-one h2 {
+  font-size: 23px;
+  color: #282938;
+  font-weight: 700;
+  margin-top: -10px;
+}
+.expertise-one p {
+  color: #1c1e53;
+  font-weight: 400;
+  font-size: 19px;
+  margin-top: -10px;
+}
+
+.expertise-ones {
+  width: 405.33px;
+  height: 380px;
+  border-bottom: 4px solid #5e3bee;
+  border-radius: 10.67px;
+  border: 0px, 0px, 4px, 0px;
+  padding: 32px;
+  gap: 32px;
+  background-color: #f5fcff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.expertise-ones img {
+  width: 79.33px;
+  height: 79.33px;
+  border-radius: 10.33px;
+  padding: 12.91px;
+  box-shadow: 0px 0px 15.49px 0px #0000001a;
+  background-color: white;
+}
+.expertise-ones h2 {
+  font-size: 23px;
+  color: #282938;
+  font-weight: 700;
+  margin-top: -10px;
+}
+.expertise-ones p {
+  color: #1c1e53;
+  font-weight: 400;
+  font-size: 19px;
+  margin-top: -10px;
+}
+
+
+@media (max-width: 1024px) {
+  .expertise-ones,
+  .expertise-one {
+    height: 480px;
+  }
+}
+@media (max-width: 992px) {
+  .expertise-div {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .expertise-body {
+    text-align: start;
+  }
+  .expertise-ones,
+  .expertise-one {
+    height: 500px;
+    text-align: start;
+  }
+}
+@media (max-width: 768px) {
+  .expertise-div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .expertise-body {
+    text-align: center;
+  }
+  .expertise-ones p,
+  .expertise-one p {
+    text-align: start;
+  }
+}
+@media (max-width: 320px) {
+  .expertise-div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .expertise-body {
+    text-align: center;
+  }
+  .expertise-body h1 {
+    font-size: 45px;
+  }
+  .expertise-ones p,
+  .expertise-one p,
+  .expertise-one h2 {
+    text-align: start;
+  }
+}

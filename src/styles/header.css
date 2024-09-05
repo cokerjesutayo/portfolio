@@ -1,0 +1,23 @@
+.icons a{
+ text-decoration: none;
+ font-size: 16px;
+ font-weight: 400;
+   color: #1C1E53;
+       font-family: "Roboto", sans-serif;
+}
+.icons a:hover{
+    cursor: pointer;
+    color: #5E3BEE;
+}
+.contactme{
+    border-radius: 5.33px;
+    padding: 18.67px, 42.67px, 18.67px, 42.67px;
+    border: 1.33px solid #5E3BEE;
+    gap: 10.67px;
+    color: #5E3BEE;
+    font-weight: 400;
+    font-size: 18px;
+    width: 130px;
+    height: 50px;
+    background-color: white;
+}
