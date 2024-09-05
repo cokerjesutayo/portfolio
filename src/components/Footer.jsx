@@ -1,17 +1,17 @@
-import React from 'react'
-import "../styles/footer.css"
+import React from "react";
+import "../styles/footer.css";
 import logo from "../assets/images/logo.png";
-import facebook from "../assets/images/Facebook.png"
+import facebook from "../assets/images/Facebook.png";
 import instagram from "../assets/images/Instagram.png";
 import twitter from "../assets/images/Twitter.png";
-import linkedin from "../assets/images/Linkedin.png";
+import linkein from "../assets/images/LinkedIn.png";
 const Footer = () => {
   return (
     <div className="footer-bg d-flex justify-content-between align-items-center">
       <div className="container  footer-body">
         <div className=" d-flex justify-content-between align-items-center footer-first">
           <div className="">
-            <img className='footer-img' src={logo} alt="" />
+            <img className="footer-img" src={logo} alt="" />
           </div>
           <div className="footer-links d-flex gap-4">
             {" "}
@@ -26,7 +26,7 @@ const Footer = () => {
             <img className="img-fluid" src={facebook} alt="" />
             <img className="img-fluid" src={instagram} alt="" />
             <img className="img-fluid" src={twitter} alt="" />
-            <img className="img-fluid" src={linkedin} alt="" />
+            <img className="img-fluid" src={linkein} alt="" />
           </div>
         </div>
 
@@ -36,7 +36,7 @@ const Footer = () => {
             <a href="#"> Made with 💖 by Airdokan</a>
           </div>
 
-          <div className='privacy-terms d-flex gap-4'>
+          <div className="privacy-terms d-flex gap-4">
             {" "}
             <a href="#privacy">Privacy Policy</a>
             <a href="#service">Terms of Service</a>
@@ -46,6 +46,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;
