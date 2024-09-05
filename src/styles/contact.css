@@ -72,7 +72,7 @@ textarea::placeholder {
 }
 @media(max-width:993px){
   .checkbox-div{
-    width: 1700px;
+    width: 100%;
     margin: auto;
   }
   

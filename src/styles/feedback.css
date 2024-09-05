@@ -55,7 +55,7 @@
 
 @media (max-width: 1199px) {
   .feedback-content {
-    height: 450px;
+    height: auto;
   }
   .name-title p {
     font-size: 20px;
@@ -67,7 +67,7 @@
     justify-content: center;
   }
    .feedback-content {
-    height: 350px;
+    height: auto;
   }
   .feedback {
     height: 1500px;
