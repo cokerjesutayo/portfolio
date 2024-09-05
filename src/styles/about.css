@@ -40,7 +40,7 @@
   }
 }
 @media (max-width: 425px) {
-  .image-man {
+  .image-contact {
     display: none;
   }
   .about-bg h2 {
@@ -52,7 +52,7 @@
 }
 
 @media (max-width: 320px) {
-  .image-man {
+  .image-content {
     display: none;
   }
 }

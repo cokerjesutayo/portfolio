@@ -17,7 +17,7 @@ const About = () => {
             </p>
             <button> Get In Touch</button>
           </div>
-          <div className="col col-lg-5">
+          <div className="col col-lg-5 image-content">
             <img className="image-man img-fluid" src={man} alt=" a man" />
           </div>
         </div>
